@@ -1,0 +1,61 @@
+    body{
+        background-color: rgb(40, 40, 40);
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: rgb(244, 244, 1)
+    }
+
+    table{
+        width: 25%;
+        height: 60vh;
+        color: black;
+    }
+
+    td{ /* td = Zelle */
+        background-color: rgb(244, 244, 1);
+        border-radius: 10%;
+        width: 25%;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        font-size: 18px;
+
+    }
+
+    td:hover{
+      background-color: black;
+      color: rgb(244, 244, 1);
+      cursor: pointer;
+      border-radius: 10%;  
+    }
+    
+    #resultArea{    
+        height: 20vh;
+        width: 25%;
+        background-color: rgb(244, 244, 1);
+        color: black;
+        border-radius: 1%;
+        font-size: 64px;
+        display: flex; /* flex box erstellen */
+        justify-content: flex-end; /* X-Achse */
+        align-items: flex-end; /* Y-Achse */
+        padding: 38px; /* Einrücken */
+        box-sizing: border-box; /* komplette Box wird nicht vergrößert durch padding */    
+    }
+
+    #result{
+        background-color: rgba(0, 0, 0, 0.986);
+        color: rgb(244, 244, 1);   
+        border-radius: 10%;
+        border-color: black;
+    }
+
+    #result:hover{
+        background-color: rgb(12, 12, 12);
+
+    }
